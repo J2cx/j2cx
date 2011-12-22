@@ -1,0 +1,1 @@
+C:\Users\weizhe.jiao\Documents\Visual Studio 2010\Projects\J2cx\J2cxSilverlight\J2cxSilverlight.Web\J2cxSilverlight.Web.csproj,634599886016342577,Properties\AssemblyInfo.cs,

@@ -1,0 +1,101 @@
+﻿<UserControl x:Class="J2cxSilverlight.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:navigation="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Navigation"
+    xmlns:toolkit="http://schemas.microsoft.com/winfx/2006/xaml/presentation/toolkit"
+    mc:Ignorable="d" xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk" 
+             d:DesignWidth="1024" d:DesignHeight="776" >
+
+    <Grid x:Name="LayoutRoot" Loaded="Grid_Loaded">
+        <toolkit:BureauBlackTheme />
+        <StackPanel x:Name="spFirst" Width="500" Height="200" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel.Resources>
+                <Storyboard x:Name="myStoryboard">
+                    <DoubleAnimation
+                 Storyboard.TargetName="label1"
+                 Storyboard.TargetProperty="Opacity"
+                 From="0.0" To="1.0" Duration="0:0:4" 
+                 AutoReverse="False" 
+                 />
+                </Storyboard>
+                <Storyboard x:Name="myStoryboard2">
+                    <DoubleAnimation
+                 Storyboard.TargetName="label2"
+                 Storyboard.TargetProperty="Opacity"
+                 From="0.0" To="1.0" Duration="0:0:4" 
+                 AutoReverse="False" 
+                 />
+                </Storyboard>
+                <Storyboard x:Name="myStoryboard3">
+                    <DoubleAnimation
+                 Storyboard.TargetName="label3"
+                 Storyboard.TargetProperty="Opacity"
+                 From="0.0" To="1.0" Duration="0:0:4" 
+                 AutoReverse="False" 
+                 />
+                </Storyboard>
+                <Storyboard x:Name="myStoryboardFake">
+                    <DoubleAnimation
+                 Storyboard.TargetName="spFirst"
+                 Storyboard.TargetProperty="Opacity"
+                 From="1.0" To="0.0" Duration="0:0:3" 
+                 AutoReverse="False" 
+                 />
+                 </Storyboard>
+            </StackPanel.Resources>
+            <sdk:Label 
+                Visibility="Collapsed"
+                Height="48" Margin="10,10,0,0"
+                HorizontalAlignment="Left" 
+                VerticalAlignment="Top" 
+                Name="label1" Width="187" 
+                Content="Face your heart" 
+                FontSize="22"
+                Foreground="SteelBlue"
+                FontStretch="Normal"
+                DataContext="{Binding}" 
+                FontWeight="Normal" 
+                FontStyle="Italic">
+            <sdk:Label.Effect>
+                <DropShadowEffect BlurRadius="17" Direction="315" ShadowDepth="5" Color="Black" />
+            </sdk:Label.Effect>
+            </sdk:Label>
+            <sdk:Label 
+                Visibility="Collapsed"
+                Height="35" 
+                HorizontalAlignment="Left" 
+                Margin="300,20,0,0" 
+                Name="label2" 
+                VerticalAlignment="Top" 
+                Width="106" 
+                Content="Be brave"
+                FontSize="22"
+                Foreground="SteelBlue" FontStyle="Italic" >
+                <sdk:Label.Effect>
+                    <DropShadowEffect BlurRadius="17" Direction="315" ShadowDepth="5" Color="Black" />
+                </sdk:Label.Effect>
+            </sdk:Label>
+            <sdk:Label 
+                Visibility="Collapsed"
+                Height="44" 
+                HorizontalAlignment="Left"
+                Margin="80,30,0,0"
+                Name="label3" 
+                VerticalAlignment="Top"
+                Width="389" 
+                Content="Let us make the life better!"
+                FontSize="28" 
+                Foreground="SteelBlue" FontStyle="Italic" >
+                <sdk:Label.Effect>
+                    <DropShadowEffect BlurRadius="17" Direction="315" ShadowDepth="5" Color="Black" />
+                </sdk:Label.Effect>
+            </sdk:Label>
+        </StackPanel>
+        <navigation:Frame x:Name="myframe" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" />
+
+
+
+    </Grid>
+</UserControl>

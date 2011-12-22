@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="ftp://ftp.j2cx.com/j2cx.com/wwwroot/" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="J2cx" publishMethod="FTP" replaceMatchingFiles="True" userName="wzjiao" savePWD="True" userPWD="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAHASrmhgdzUuiOTtvfTn6mwAAAAACAAAAAAADZgAAwAAAABAAAABNQcpKhNilm6IJW2suO9OAAAAAAASAAACgAAAAEAAAAADd3AaLRIQ3QCWqLMHRfTcYAAAAZ4dopXWzW76HlJJyQlpzUrtYiRfb7EREFAAAAAAzhGIteW/pmmk81v1CrtGvdH6f" SelectedForPublish="True">
+    <file relUrl="Silverlight.js" publishTime="12/20/2011 14:34:26" />
+    <file relUrl="J2cxSilverlightTestPage.aspx" publishTime="12/20/2011 14:34:26" />
+    <file relUrl="Web.config" publishTime="12/20/2011 18:09:23" />
+    <file relUrl="J2cxSilverlightTestPage.html" publishTime="12/20/2011 14:34:26" />
+    <file relUrl="ClientBin/J2cxSilverlight.xap" publishTime="12/21/2011 16:42:01" />
+    <file relUrl="bin/J2cxSilverlight.Web.pdb" publishTime="12/20/2011 17:45:56" />
+    <file relUrl="bin/J2cxSilverlight.Web.dll" publishTime="12/20/2011 17:45:56" />
+  </publishProfile>
+</publishData>

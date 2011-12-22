@@ -1,0 +1,5 @@
+C:\Users\weizhe.jiao\Documents\Visual Studio 2010\Projects\J2cx\J2cxSilverlight\J2cxSilverlight.Web\bin\J2cxSilverlight.Web.dll
+C:\Users\weizhe.jiao\Documents\Visual Studio 2010\Projects\J2cx\J2cxSilverlight\J2cxSilverlight.Web\bin\J2cxSilverlight.Web.pdb
+C:\Users\weizhe.jiao\Documents\Visual Studio 2010\Projects\J2cx\J2cxSilverlight\J2cxSilverlight.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\weizhe.jiao\Documents\Visual Studio 2010\Projects\J2cx\J2cxSilverlight\J2cxSilverlight.Web\obj\Debug\J2cxSilverlight.Web.dll
+C:\Users\weizhe.jiao\Documents\Visual Studio 2010\Projects\J2cx\J2cxSilverlight\J2cxSilverlight.Web\obj\Debug\J2cxSilverlight.Web.pdb

@@ -1,0 +1,2 @@
+C:\Users\weizhe.jiao\Documents\Visual Studio 2010\Projects\J2cx\J2cxSilverlight\J2cxSilverlight
+Generated_Code\J2cxSilverlight.Web.g.cs

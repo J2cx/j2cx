@@ -1,0 +1,214 @@
+﻿<navigation:Page x:Class="J2cxSilverlight.Page1" 
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+           xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+           xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+           mc:Ignorable="d"
+           xmlns:navigation="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Navigation"
+           xmlns:toolkit="http://schemas.microsoft.com/winfx/2006/xaml/presentation/toolkit"
+           d:DesignWidth="1024" d:DesignHeight="776"
+           Title="Page1 Page" xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk">
+
+    <Grid x:Name="LayoutRoot" >
+        <toolkit:BureauBlackTheme />
+        <Grid x:Name="LayoutContent" Width="980" Height="776"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="270" />
+                <ColumnDefinition Width="270" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <RichTextBox Margin="10" FontSize="22"
+                Foreground="SteelBlue"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Bottom"
+                Name="RichTextBoxName" FontStyle="Normal" FontWeight="Bold" 
+                         Background="Transparent"
+                         BorderThickness="0"
+                         IsReadOnly="True">
+                <Paragraph>
+                    Weizhe JIAO
+                </Paragraph>
+            </RichTextBox>
+            <RichTextBox Margin="10" FontSize="16"
+                Grid.Row="0"
+                Grid.Column="1"
+                Foreground="SteelBlue"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Bottom"
+                Name="RichTextBoxMetier" FontStyle="Italic" FontWeight="Bold" Grid.ColumnSpan="2" 
+                         Background="Transparent"
+                         BorderThickness="0"
+                         IsReadOnly="True">
+                <Paragraph>
+                    Ingénieur Développement
+                </Paragraph>
+            </RichTextBox>
+            <RichTextBox Margin="10"
+                Grid.Row="1"
+                Grid.Column="0"
+                FontSize="14"
+                Foreground="SteelBlue"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                Name="RichTextBoxHCom" FontStyle="Normal" FontWeight="Bold" 
+                         Background="Transparent"
+                         BorderThickness="0"
+                         IsReadOnly="True" >
+                <Paragraph>
+                    Compétences
+                </Paragraph>
+            </RichTextBox>
+            <RichTextBox Margin="10"
+                Grid.Row="1"
+                Grid.Column="1"
+                Grid.ColumnSpan="2"
+                FontSize="14"
+                Foreground="WhiteSmoke"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Name="RichTextBoxCom" FontStyle="Normal"
+                         Background="Transparent"
+                         BorderThickness="0"
+                         IsReadOnly="True" >
+                <Paragraph>
+                    C#, .Net, etc.
+                </Paragraph>
+            </RichTextBox>
+            <RichTextBox Margin="10"
+                Grid.Row="2"
+                Grid.Column="0"
+                FontSize="14"
+                Foreground="SteelBlue"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                Name="RichTextBoxHExp"  FontStyle="Normal" FontWeight="Bold"
+                         Background="Transparent"
+                         BorderThickness="0"
+                         IsReadOnly="True" >
+                <Paragraph>
+                    Expériences
+                </Paragraph>
+            </RichTextBox>
+            <RichTextBox Margin="10"
+                Grid.Row="2"
+                Grid.Column="1"
+                Grid.ColumnSpan="2"
+                FontSize="14"
+                Foreground="WhiteSmoke"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Name="RichTextBoxExp" FontStyle="Normal" 
+                         Background="Transparent"
+                         BorderThickness="0"
+                         IsReadOnly="True" >
+                <Paragraph>
+                    Ingénieur Développement en .Net et C# chez DirectAnnonces
+                </Paragraph>
+            </RichTextBox>
+            <RichTextBox Margin="10"
+                Grid.Row="3"
+                Grid.Column="0"
+                FontSize="14"
+                Foreground="SteelBlue"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                Name="RichTextBoxHFor"  FontStyle="Normal" FontWeight="Bold" 
+                         Background="Transparent"
+                         BorderThickness="0"
+                         IsReadOnly="True" >
+                <Paragraph>
+                    Formations
+                </Paragraph>
+            </RichTextBox>
+            <RichTextBox Margin="10"
+                Grid.Row="3"
+                Grid.Column="1"
+                Grid.ColumnSpan="2"
+                FontSize="14"
+                Foreground="WhiteSmoke"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Name="RichTextBoxFor" FontStyle="Normal"
+                         Background="Transparent"
+                         BorderThickness="0"
+                         IsReadOnly="True" >
+                <Paragraph>
+                    ENST Bretagne (TELECOM Bretgane)
+                </Paragraph>
+            </RichTextBox>
+            <RichTextBox Margin="10"
+                Grid.Row="4"
+                Grid.Column="0"
+                FontSize="14"
+                Foreground="SteelBlue"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                Name="RichTextBoxHLan" FontStyle="Normal" FontWeight="Bold" 
+                         Background="Transparent"
+                         BorderThickness="0"
+                         IsReadOnly="True" >
+                <Paragraph>
+                    Languages
+                </Paragraph>
+            </RichTextBox>
+            <RichTextBox Margin="10"
+                Grid.Row="4"
+                Grid.Column="1"
+                Grid.ColumnSpan="2"
+                FontSize="14"
+                Foreground="WhiteSmoke"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Name="RichTextBoxLan" FontStyle="Normal"
+                         Background="Transparent"
+                         BorderThickness="0"
+                         IsReadOnly="True" >
+                <Paragraph>
+                    Anglais: Courant Chinois: Courant
+                </Paragraph>
+            </RichTextBox>
+            <RichTextBox Margin="10"
+                Grid.Row="5"
+                Grid.Column="0"
+                FontSize="14"
+                Foreground="SteelBlue"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                Name="RichTextBoxHLoisir" FontStyle="Normal" FontWeight="Bold" 
+                         Background="Transparent"
+                         BorderThickness="0"
+                         IsReadOnly="True" >
+                <Paragraph>
+                    Loisirs
+                </Paragraph>
+            </RichTextBox>
+            <RichTextBox Margin="10"
+                Grid.Row="5"
+                Grid.Column="1"
+                Grid.ColumnSpan="2"
+                FontSize="14"
+                Foreground="WhiteSmoke"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Name="RichTextBoxLoisir" FontStyle="Normal"
+                         Background="Transparent"
+                         BorderThickness="0"
+                         IsReadOnly="True" >
+                <Paragraph>
+                    Sports
+                </Paragraph>
+            </RichTextBox>
+        </Grid>
+    </Grid>
+</navigation:Page>
